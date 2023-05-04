@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
     m_HighlightedColor: {r: 0.06696808, g: 1, b: 0, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 0, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 0, a: 1}
     m_DisabledColor: {r: 1, g: 0, b: 0, a: 0.5019608}
     m_ColorMultiplier: 5
@@ -241,9 +241,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 9026849634213669640}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
-  m_WholeNumbers: 0
-  m_Value: 0.347
+  m_MaxValue: 100
+  m_WholeNumbers: 1
+  m_Value: 33
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
