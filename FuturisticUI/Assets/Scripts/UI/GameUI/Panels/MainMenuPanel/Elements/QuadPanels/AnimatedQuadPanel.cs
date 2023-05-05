@@ -36,12 +36,9 @@ namespace Game.UI
 
         private Vector2 SquareSize { get; set; } = Vector2.zero;
 
-        private List<QuadPanelSquareElement> SpawnedSquares { get; set; } = new List<QuadPanelSquareElement>();
-
         #endregion
 
         #region Methods
-
 
         private void Start()
         {
