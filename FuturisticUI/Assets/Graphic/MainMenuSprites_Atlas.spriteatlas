@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MainMenuSprites_Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 07f323e331d6d7042bfa6a913cd33665, type: 3}
+    - {fileID: 2800000, guid: 25d3799e2208e064aa433d854ddf1ff0, type: 3}
+    - {fileID: 2800000, guid: db75b4ef26f9abb4aa06061005c73bdc, type: 3}
+    - {fileID: 2800000, guid: 11b4f6a64e5031944a1d5dfa0243fbe8, type: 3}
+    - {fileID: 2800000, guid: 700cb90002d70f44e836f778b5c54b70, type: 3}
+    - {fileID: 2800000, guid: bb3370c3c2e70f3478c4a14d0e004fac, type: 3}
+    - {fileID: 2800000, guid: 76c25ca7bff438c43a4845af92b03de0, type: 3}
+    - {fileID: 2800000, guid: 184178fc4b799b0419777750f9e8c3af, type: 3}
+    - {fileID: 2800000, guid: e1543e6c4121eb94fa47861b07c99bef, type: 3}
+    - {fileID: 2800000, guid: 1d7178f6767e5084ebdd382cc829974d, type: 3}
+    - {fileID: 2800000, guid: 52e9140768b03cb43b4c8146b3f5e7de, type: 3}
+    - {fileID: 2800000, guid: 731be6c4ec8cdbc4e9713c2cefc872a3, type: 3}
+    - {fileID: 2800000, guid: cec5f1ffa109ad743b5ddcba4f4ceee7, type: 3}
+    - {fileID: 2800000, guid: e353ba78fad19b14b9d9e00caeee1301, type: 3}
+    - {fileID: 2800000, guid: 14b11760f08e63b429bb79d92c23e0ea, type: 3}
+    - {fileID: 2800000, guid: 994f476d42a3ce8408d65344037e4304, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 14b11760f08e63b429bb79d92c23e0ea, type: 3}
+  - {fileID: 21300000, guid: bb3370c3c2e70f3478c4a14d0e004fac, type: 3}
+  - {fileID: 21300000, guid: 07f323e331d6d7042bfa6a913cd33665, type: 3}
+  - {fileID: 21300000, guid: 731be6c4ec8cdbc4e9713c2cefc872a3, type: 3}
+  - {fileID: 21300000, guid: 11b4f6a64e5031944a1d5dfa0243fbe8, type: 3}
+  - {fileID: 21300000, guid: 1d7178f6767e5084ebdd382cc829974d, type: 3}
+  - {fileID: 21300000, guid: 52e9140768b03cb43b4c8146b3f5e7de, type: 3}
+  - {fileID: 21300000, guid: 76c25ca7bff438c43a4845af92b03de0, type: 3}
+  - {fileID: 21300000, guid: e353ba78fad19b14b9d9e00caeee1301, type: 3}
+  - {fileID: 21300000, guid: e1543e6c4121eb94fa47861b07c99bef, type: 3}
+  - {fileID: 21300000, guid: 184178fc4b799b0419777750f9e8c3af, type: 3}
+  - {fileID: 21300000, guid: 994f476d42a3ce8408d65344037e4304, type: 3}
+  - {fileID: 21300000, guid: 25d3799e2208e064aa433d854ddf1ff0, type: 3}
+  - {fileID: 21300000, guid: db75b4ef26f9abb4aa06061005c73bdc, type: 3}
+  - {fileID: 21300000, guid: cec5f1ffa109ad743b5ddcba4f4ceee7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - menu_save_ikona
+  - menu_ozdobnik_2_a
+  - menu_logo_1
+  - menu_przycisk_ozdobnik_1
+  - menu_ozdobnik_1
+  - menu_ozdobnik_txt
+  - menu_przycisk_1
+  - menu_ozdobnik_2_b
+  - menu_save_1
+  - menu_ozdobnik_3
+  - menu_ozdobnik_2_c
+  - menu_save_przycisk
+  - menu_logo_2
+  - menu_logo_ramka
+  - menu_przycisk_ozdobnik_2
+  m_RenderDataMap: {}
+  m_Tag: MainMenuSprites_Atlas
+  m_IsVariant: 0
