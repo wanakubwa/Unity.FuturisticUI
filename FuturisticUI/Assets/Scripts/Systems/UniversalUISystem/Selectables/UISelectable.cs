@@ -39,7 +39,7 @@ namespace UniversalUISystem
         [SerializeField]
         private UISelectableEvent onPressed = new UISelectableEvent();
         [SerializeField]
-        private UnityEvent onSelected = new UnityEvent();
+        private UnityEvent<bool> onSelected = new UnityEvent<bool>();
         [SerializeField]
         private UnityEvent onDeselected = new UnityEvent();
 
@@ -107,7 +107,17 @@ namespace UniversalUISystem
                 SetSelectedNonInteractableState();
             }
 
-            onSelected?.Invoke();
+            onSelected?.Invoke(CanPress);
+        }
+
+        public override void OnPointerDown(PointerEventData eventData)
+        {
+            base.OnPointerDown(eventData);
+
+            if(isDisabled == false)
+            {
+                RootController.FocusButton(this);
+            }
         }
 
         protected override void DoStateTransition(SelectionState state, bool instant)
