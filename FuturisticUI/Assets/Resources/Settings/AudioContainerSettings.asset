@@ -17,6 +17,4 @@ MonoBehaviour:
     audio: {fileID: 7062382694671738566, guid: 2bc748490a554ad48825fd9ff687f092, type: 3}
   - label: 2
     audio: {fileID: 7062382694671738566, guid: 21da21bd1bba5ad4082637a54bbd3efb, type: 3}
-  - label: 3
-    audio: {fileID: 7062382694671738566, guid: e15ae0f8eb2669a4bad25f96a3527ad4, type: 3}
   sceneAudioCollection: []

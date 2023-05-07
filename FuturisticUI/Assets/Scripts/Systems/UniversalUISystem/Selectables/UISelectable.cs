@@ -39,6 +39,8 @@ namespace UniversalUISystem
         [SerializeField]
         private UISelectableEvent onPressed = new UISelectableEvent();
         [SerializeField]
+        private UISelectableEvent onPressedInactive = new UISelectableEvent();
+        [SerializeField]
         private UnityEvent<bool> onSelected = new UnityEvent<bool>();
         [SerializeField]
         private UnityEvent onDeselected = new UnityEvent();
@@ -75,6 +77,10 @@ namespace UniversalUISystem
             if (CanPress == true)
             {
                 onPressed?.Invoke(this);
+            }
+            else
+            {
+                onPressedInactive?.Invoke(this);
             }
         }
 
@@ -114,7 +120,10 @@ namespace UniversalUISystem
         {
             base.OnPointerDown(eventData);
 
-            if(isDisabled == false)
+            // Wcisniecie elementu myszka.
+            PressElement();
+
+            if (isDisabled == false)
             {
                 RootController.FocusButton(this);
             }
@@ -123,12 +132,6 @@ namespace UniversalUISystem
         protected override void DoStateTransition(SelectionState state, bool instant)
         {
             base.DoStateTransition(state, instant);
-
-            // Wcisniecie elementu myszka.
-            if (state == SelectionState.Pressed)
-            {
-                PressElement();
-            }
 
             switch (state)
             {

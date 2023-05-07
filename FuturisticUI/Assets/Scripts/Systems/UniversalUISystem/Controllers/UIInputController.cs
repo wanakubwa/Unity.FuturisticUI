@@ -20,6 +20,9 @@ namespace UniversalUISystem
         private UISelectable DefaultSelectableElement { get; set; }
         private UISelectable LastSelectedElement { get; set; } = null;
 
+        // Accessors.
+        private UISelectable DefaultSelectable { get => CurrentSubcontroller != null ? CurrentSubcontroller.DefaultSelectable : DefaultSelectableElement; }
+
         #endregion
 
         #region Methods
@@ -42,7 +45,8 @@ namespace UniversalUISystem
         public void RegisterSubController(UIInputSubController subController)
         {
             CurrentSubcontroller = subController;
-            SetFocus();
+            LastSelectedElement = CurrentEventSystem.currentSelectedGameObject?.GetComponent<UISelectable>();
+            SetFocus(DefaultSelectable);
         }
 
         public void UnregisterSubController(UIInputSubController subController)
@@ -75,31 +79,30 @@ namespace UniversalUISystem
             if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.JoystickButton2))
             {
                 GameObject selectedObject = CurrentEventSystem.currentSelectedGameObject;
-                if(selectedObject != null)
+                if (selectedObject != null)
                 {
-                    UISelectable selectedButton = Array.Find(SelectableElements, x => x.gameObject == selectedObject);
-                    if (selectedButton != null)
-                    {
-                        selectedButton.PressElement();
-                    }
+                    HandleSubmitButtonPress(selectedObject);
                 }
             }
 
             if(CurrentEventSystem.currentSelectedGameObject == null)
             {
-                SetFocus(DefaultSelectableElement);
+                SetFocus(DefaultSelectable);
+            }
+        }
+
+        private void HandleSubmitButtonPress(GameObject selectedObject)
+        {
+            UISelectable[] selectables = CurrentSubcontroller != null ? CurrentSubcontroller.PanelSelectables : SelectableElements;
+            UISelectable selectedButton = Array.Find(selectables, x => x.gameObject == selectedObject);
+            if (selectedButton != null)
+            {
+                selectedButton.PressElement();
             }
         }
 
         private void SetFocus(UISelectable selectable = null)
-        {
-            if(CurrentSubcontroller != null)
-            {
-                LastSelectedElement = CurrentEventSystem.currentSelectedGameObject?.GetComponent<UISelectable>();
-                CurrentSubcontroller.SetFocus();
-                return;
-            }
-
+        { 
             FocusButton(selectable);
         }
 

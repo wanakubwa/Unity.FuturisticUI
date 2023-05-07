@@ -2160,36 +2160,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
-      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2912882057817757476}
-    - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1179121866159153436}
+      objectReference: {fileID: 2912882057817757476}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
-      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: OnSettingsSelected
       objectReference: {fileID: 0}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
-      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayAudio
-      objectReference: {fileID: 0}
-    - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
-      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Game.UI.DummyMainMenuPanel, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UniversalAudioSystem.UIAudioTrigger, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
-      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: Game.UI.DummyMainMenuPanel, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -2297,17 +2281,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
---- !u!114 &1179121866159153436 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4049219692191274377, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
-  m_PrefabInstance: {fileID: 2912882056895411349}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6aae5f13e41368246b8f2a8d3868b45d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &1448992728994286570 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4357085277207412607, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
@@ -2376,21 +2349,13 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
-      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
-      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
-      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2912882057817757476}
-    - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1179121866158953677}
+      objectReference: {fileID: 2912882057817757476}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressedWithArguments.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -2400,12 +2365,8 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
-      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnDummyButtonSelected
-      objectReference: {fileID: 0}
-    - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayAudio
+      value: OnDummyButtonSelected
       objectReference: {fileID: 0}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressedWithArguments.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -2416,12 +2377,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2912882057817757476}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
-      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Game.UI.DummyMainMenuPanel, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UniversalAudioSystem.UIAudioTrigger, Assembly-CSharp
+      value: Game.UI.DummyMainMenuPanel, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressedWithArguments.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -2553,17 +2510,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
---- !u!114 &1179121866158953677 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4049219692191274377, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
-  m_PrefabInstance: {fileID: 2912882056895594820}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6aae5f13e41368246b8f2a8d3868b45d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &1448992728994496059 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4357085277207412607, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
@@ -2761,7 +2707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2770,7 +2716,7 @@ PrefabInstance:
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1179121867842433632}
+      objectReference: {fileID: 2912882057817757476}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressedWithArguments.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -2785,7 +2731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayAudio
+      value: OnDummyButtonSelected
       objectReference: {fileID: 0}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressedWithArguments.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -2801,7 +2747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UniversalAudioSystem.UIAudioTrigger, Assembly-CSharp
+      value: Game.UI.DummyMainMenuPanel, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1183525746518225343, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
       propertyPath: onPressedWithArguments.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -2921,17 +2867,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
---- !u!114 &1179121867842433632 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4049219692191274377, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}
-  m_PrefabInstance: {fileID: 2912882057488590825}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6aae5f13e41368246b8f2a8d3868b45d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &1448992729454303382 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4357085277207412607, guid: ebf8f90cf2825a64abd6b85ccce1f42b, type: 3}

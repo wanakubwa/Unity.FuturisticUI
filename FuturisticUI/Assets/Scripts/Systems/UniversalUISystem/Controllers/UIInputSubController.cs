@@ -8,10 +8,10 @@ namespace UniversalUISystem
         #region Propeties
 
         private UIInputController RootController { get; set; }
-        private UISelectable[] PanelSelectables { get; set; }
+        public UISelectable[] PanelSelectables { get; private set; }
 
         // Defaults.
-        private UISelectable DefaultSelectable { get; set; } = null;
+        public UISelectable DefaultSelectable { get; private set; } = null;
 
         #endregion
 
@@ -29,6 +29,10 @@ namespace UniversalUISystem
 
             PanelSelectables = GetComponentsInChildren<UISelectable>();
             DefaultSelectable = PanelSelectables.FirstOrDefault();
+            for (int i = 0; i < PanelSelectables.Length; i++)
+            {
+                PanelSelectables[i].Initialize(RootController);
+            }
         }
 
         private void Start()
