@@ -7,6 +7,8 @@ Scena z rozwiązaniem znajduje się w folderze: Assets/Scenes
 
 Po kliknięciu w przycisk "Settings" wyświetlony zostanie popup, na którym znajdują się: scrollView, przyciski, suwak oraz toggle. Zaproponowane rozwiązanie sterowania UI zostało zamknięte jako moduł w osobnej assemblacji. System sterowania postarałem się aby był otwarty na ewentualną rozbudowę oraz pozostał jak najbardziej uniwersalny. Samo sterowanie możliwe jest za pomocą myszy, klawiatury oraz GamePad'a.
 
+Scroll przwija się automatycznie w przypadku selekcji kolejnego elementu (strzałki, pad), dla myszki aby przewinąc scrolla neleży złapać żółty suwak po prawej stronie.
+
 ### Klawiatura
  - Strzałki - pozwalają na zmianę selekcji wybranego przycisku na UI.
  - Enter - Akcja submit przycisku (klik).
