@@ -1,5 +1,7 @@
 # Futuristic UI
 
+<img src= "Examples/FuturisticUI_unity_view.png"> 
+
 Projekt został utworzony na wersji Unity 2021.3.11f1 </br>
 Scena z rozwiązaniem znajduje się w folderze: Assets/Scenes
 
@@ -18,9 +20,9 @@ W przypadku gamepada najlepszym rozwiązaniem, ze względu na różne mapowanie 
 - Przycisk X - Zamyka otwarte okno popup.
 
 ## Stany przycisków
- -  Selekcja - przycisk podświetla swoje tło na żółto, a kolor napisu zamienia się na czarny.
+ - Selekcja - przycisk podświetla swoje tło na żółto, a kolor napisu zamienia się na czarny.
  - Przycisk zablokowany (pomijalny podczas selekcji) - ramka przycisku oraz tekst ustawia się na kolor czerwony.
- - Przycisk wyłączony (możliwy do wyboru ale nie klikalny) - Ramka ustawia się na kolor czerwony, po selekcji zmienia kolor na żółty.
+ - Przycisk wyłączony (możliwy do wyboru ale nie klikalny) - Tekst ustawia się na kolor czerwony. Ramka po selekcji zmienia kolor na żółty.
  - Submit - Indykowany jest za pomocą dźwięku w zależności od tego czy przycisk jest wyłączony lub nie, uruchomiony będzie inny dźwięk.
  
  ## Animacje
